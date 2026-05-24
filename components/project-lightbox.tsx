@@ -147,7 +147,7 @@ export function ProjectLightbox({
               {projectDescription}
             </p>
             <div className="flex items-center justify-center gap-4 text-card/50 text-sm mt-2">
-              {/* <span>{projectLocation}</span> */}
+              <span>{projectLocation}</span>
               <span>•</span>
               <span>{projectYear}</span>
             </div>

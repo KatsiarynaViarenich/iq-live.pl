@@ -54,8 +54,8 @@ export const translations = {
                     "description": "Wykończenie łazienki w ciepłych kolorach."
                 },
                 "2": {
-                    "title": "Wykończenie Pokoi Hotelowych",
-                    "description": "Wykończenie wnętrz hotelowych."
+                    "title": "Wykończenie Mieszkań Pod Wynajem",
+                    "description": "Wykończenie wnętrz pod wynajem w Resi4Rent."
                 },
                 "3": {
                     "title": "Wykończenie Mieszkania",
@@ -95,27 +95,39 @@ export const translations = {
             "items": {
                 "residential": {
                     "title": "Wykończenia pod klucz",
-                    "description": "Kompleksowe wykończenie mieszkań i domów ze stanu deweloperskiego."
+                    "description": "Kompleksowe wykończenie mieszkań i domów z rynku pierwotnego i wtórnego."
                 },
                 "commercial": {
                     "title": "Prace Glazurnicze",
                     "description": "Profesjonalne układanie płytek, gresu, terakoty."
                 },
                 "renovation": {
-                    "title": "Malowanie i Gładzie",
-                    "description": "Gładzie gipsowe oraz idealne malowanie ścian i sufitów."
+                    "title": "Gładzie i Malowanie",
+                    "description": "Gładzie oraz malowanie ścian i sufitów."
                 },
                 "projectManagement": {
                     "title": "Instalacje Elektryczne i Hydrauliczne",
-                    "description": "Kompletna przeróbka i modernizacja instalacji w mieszkaniach."
+                    "description": "Montaż/wykonawstwo instalacji elektrycznych i hydraulicznych."
                 },
                 "design": {
                     "title": "Podłogi i Panele",
-                    "description": "Układanie każdego rodzaju podłóg drewnianych i paneli."
+                    "description": "Montaż podłóg drewnianych i paneli."
                 },
                 "consulting": {
                     "title": "Doradztwo",
-                    "description": "Profesjonalna pomoc w doborze materiałów i układu wnętrza."
+                    "description": "Profesjonalne doradztwo na każdym etapie prac oraz podczas odbioru technicznego."
+                },
+                "glamping": {
+                    "title": "Glamping",
+                    "description": "Usługi dla ośrodków Glampingowych i Campingowych, w tym kompleksowe wykończenia i remonty domków letniskowych."
+                },
+                "drywall": {
+                    "title": "Zabudowa Płytami Gipsowo-Kartonowymi i Murowanie z Betonu Komórkowego",
+                    "description": "Montaż sufitów podwieszanych, ścianek działowych i innych konstrukcji z płyt GKB i betonu komórkowego."
+                },
+                "terraces": {
+                    "title": "Tarasy Ogrodowe",
+                    "description": "Kompleksowe wykonawstwo tarasów drewnianych."
                 }
             }
         },

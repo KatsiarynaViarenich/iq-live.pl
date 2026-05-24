@@ -15,7 +15,7 @@ const projectsData = [
     title: "Residential Project 1",
     titleKey: "1" as const,
     category: "residential" as const,
-    location: "Wrocław",
+    location: "ul. Czajkowskiego, Wrocław",
     year: "2024",
     images: [
       "/images/residential/1/1.jpg",
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Residential Project 2",
     titleKey: "2" as const,
     category: "commercial" as const,
-    location: "Wrocław",
+    location: "Resi4Rent, Grabiszyńska, Wrocław",
     year: "2024",
     images: [
       "/images/residential/2/1.jpg",
@@ -40,7 +40,7 @@ const projectsData = [
     title: "Residential Project 3",
     titleKey: "3" as const,
     category: "residential" as const,
-    location: "Wrocław",
+    location: "Krucza, Wrocław",
     year: "2024",
     images: [
       "/images/residential/3/1.jpg",
@@ -51,9 +51,9 @@ const projectsData = [
     id: 4,
     title: "Residential Project 4",
     titleKey: "4" as const,
-    category: "residential" as const,
-    location: "Wrocław",
-    year: "2024",
+    category: "commercial" as const,
+    location: "Westerbork, Holandia",
+    year: "2025",
     images: [
       "/images/residential/4/1.jpg",
       "/images/residential/4/2.jpg",
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Residential Project 5",
     titleKey: "5" as const,
     category: "residential" as const,
-    location: "Wrocław",
+    location: "ul. Czajkowskiego, Wrocław",
     year: "2024",
     images: [
       "/images/residential/5/1.jpg",
@@ -77,7 +77,7 @@ const projectsData = [
     title: "Residential Project 6",
     titleKey: "6" as const,
     category: "residential" as const,
-    location: "Wrocław",
+    location: "Psie Pole, Wrocław",
     year: "2024",
     images: [
       "/images/residential/6/1.jpg",
@@ -89,8 +89,8 @@ const projectsData = [
     title: "Commercial Project 1",
     titleKey: "7" as const,
     category: "commercial" as const,
-    location: "Wrocław",
-    year: "2024",
+    location: "Grabiszyńska, Wrocław",
+    year: "2026",
     images: [
       "/images/commercial/1/1.jpg",
       "/images/commercial/1/2.jpg",
@@ -102,8 +102,8 @@ const projectsData = [
     title: "Commercial Project 2",
     titleKey: "8" as const,
     category: "commercial" as const,
-    location: "Wrocław",
-    year: "2024",
+    location: "Grabiszyńska, Wrocław",
+    year: "2026",
     images: [
       "/images/commercial/2/1.jpg",
       "/images/commercial/2/2.jpg",
@@ -114,8 +114,8 @@ const projectsData = [
     title: "Commercial Project 3",
     titleKey: "9" as const,
     category: "commercial" as const,
-    location: "Wrocław",
-    year: "2024",
+    location: "Świętego Mikołaja, Wrocław",
+    year: "2023",
     images: [
       "/images/commercial/3/1.jpg"
     ],

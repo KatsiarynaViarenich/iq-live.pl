@@ -3,14 +3,17 @@
 import { Building2, Home, Paintbrush, Factory, Ruler, HardHat, type LucideIcon } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
-type ServiceKey = "residential" | "commercial" | "renovation" | "projectManagement" | "design" | "consulting"
+type ServiceKey = "residential" | "commercial" | "renovation" | "projectManagement" | "design" | "consulting" | "glamping" | "drywall" | "terraces"
 
 const servicesData: { key: ServiceKey; icon: LucideIcon }[] = [
   { key: "residential", icon: Home },
-  { key: "commercial", icon: Building2 },
-  { key: "renovation", icon: Paintbrush },
+  { key: "glamping", icon: Factory },
   { key: "projectManagement", icon: HardHat },
+  { key: "drywall", icon: Building2 },
+    { key: "renovation", icon: Paintbrush },
+  { key: "commercial", icon: Building2 },
   { key: "design", icon: Ruler },
+  { key: "terraces", icon: Home },
   { key: "consulting", icon: Factory },
 ]
 
