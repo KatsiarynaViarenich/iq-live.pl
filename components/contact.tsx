@@ -10,8 +10,7 @@ export function Contact() {
     {
       icon: Phone,
       label: t.contact.info.call,
-      value: "+48 731 997 440 (PL)",
-      sublabel: "+48 695 846 241 (UA, RU)"
+      value: "+48 731 997 440 (PL)\n+48 695 846 241 (UA, RU)"
     },
     {
       icon: Mail,
@@ -46,16 +45,16 @@ export function Contact() {
             <h3 className="font-serif text-3xl text-foreground mb-4 text-center">{t.contact.info.title}</h3>
             <p className="text-muted-foreground mb-12 text-center max-w-2xl mx-auto">{t.contact.info.description}</p>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-6">
               {contactInfo.map((item) => (
-                <div key={item.label} className="flex flex-col items-center text-center p-8 bg-primary/5 rounded-2xl transition-all duration-300 hover:bg-primary/10 hover:shadow-md hover:-translate-y-1">
+                <div key={item.label} className="flex flex-col items-center text-center p-6 bg-primary/5 rounded-2xl transition-all duration-300 hover:bg-primary/10 hover:shadow-md hover:-translate-y-1">
                   <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-full mb-6">
                     <item.icon className="h-8 w-8 text-primary" />
                   </div>
                   <p className="text-muted-foreground text-sm uppercase tracking-wider mb-2">
                     {item.label}
                   </p>
-                  <p className="text-foreground text-lg font-medium mb-1">
+                  <p className="text-foreground text-lg font-medium mb-1 break-words" style={{ whiteSpace: "pre-line" }}>
                     {item.value}
                   </p>
                   {item.sublabel && (

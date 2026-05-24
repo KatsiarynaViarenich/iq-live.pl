@@ -27,7 +27,7 @@ export function About() {
             </div>
             {/* Floating Stats Card */}
             <div className="absolute -bottom-8 -right-8 bg-primary p-8 max-w-xs hidden lg:block">
-              <p className="font-serif text-5xl text-primary-foreground mb-2">15+</p>
+              <p className="font-serif text-5xl text-primary-foreground mb-2">13</p>
               <p className="text-primary-foreground/80 uppercase tracking-wide text-sm">
                 {t.hero.stats.years}
               </p>

@@ -139,7 +139,7 @@ export const translations = {
             "descriptionSecondary": "Rozumiemy, jak ważny jest spokój podczas remontu. Dlatego dbamy o terminowość, służymy radą na każdym etapie prac i oferujemy 2-letnią rękojmię na nasze usługi. Jakość zawsze na pierwszym miejscu.",
             "highlights": {
                 "licensed": "Rękojmia 2 lata",
-                "safety": "Najwyższa jakość wykonania",
+                "safety": "Najwyższa jakość wykonania usług",
                 "warranty": "Dotrzymywanie terminów",
                 "sustainable": "Fachowe doradztwo"
             },
@@ -157,21 +157,21 @@ export const translations = {
             "reviews": {
                 "review1": {
                     "text": "Doskonała współpraca! Pracę remontowe wykonane w pełni profesjonalnie, wszystko na tip top. Dbałość dosłownie o każdy szczegół. Rzetelna i doskonała komunikacja. Szczerze polecam i już nikogo innego nie będę szukać w przypadku nowych remontów.",
-                    "author": "Zadowolony Klient",
+                    "author": "Paulina",
                     "role": "Właściciel Mieszkania",
-                    "location": "Wykończenie Wnętrz"
+                    "location": "Wykończenie Łazienki"
                 },
                 "review2": {
                     "text": "Profesjonalne podejście do klienta. Szybkie rozwiązanie napotkanego problemu, oraz bardzo fachowe doradztwo. Polecam.",
-                    "author": "Zadowolony Klient",
-                    "role": "Właściciel",
-                    "location": "Wykończenie łazienki"
+                    "author": "Magdalena W.",
+                    "role": "Właściciel Mieszkania",
+                    "location": "Instalacja Elektryczna"
                 },
                 "review3": {
-                    "text": "Jestem bardzo zadowolony ze współpracy z firmą, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
+                    "text": "Jestem bardzo zadowolony ze współpracy z firmą ALT-remonty, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
                     "author": "Zadowolony Klient",
-                    "role": "Klient Indywidualny",
-                    "location": "Wykończenie wnętrza"
+                    "role": "Właściciel Mieszkania",
+                    "location": "Jacek W."
                 }
             }
         },
@@ -179,7 +179,7 @@ export const translations = {
             "tagline": "Kontakt",
             "title": "Porozmawiajmy o Twoim ",
             "titleHighlight": "Projekcie",
-            "description": "Zadzwoń do nas lub napisz! Chętnie doradzimy i umówimy się na bezpłatną wycenę.",
+            "description": "Zadzwoń do nas lub napisz! Chętnie doradzimy i umówimy się na wycenę.",
             "form": {
                 "firstName": "Imię",
                 "lastName": "Nazwisko",

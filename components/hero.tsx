@@ -69,7 +69,7 @@ export function Hero() {
         <div className="container mx-auto px-6 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <p className="font-serif text-3xl md:text-4xl text-primary">15+</p>
+              <p className="font-serif text-3xl md:text-4xl text-primary">13</p>
               <p className="text-sm text-muted-foreground uppercase tracking-wide mt-1">{t.hero.stats.years}</p>
             </div>
             <div className="text-center">
