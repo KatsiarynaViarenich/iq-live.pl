@@ -66,8 +66,8 @@ export const translations = {
                     "description": "Łazienka w czarno-białych kolorach."
                 },
                 "5": {
-                    "title": "Montaż Mebli Kuchennych",
-                    "description": "Przytulna kuchnia w beżowych odcieniach."
+                    "title": "Wykończenie Kuchni",
+                    "description": "Wykonanie instalacji elektrycznej i hydraulicznej oraz układanie płytek w kuchni."
                 },
                 "6": {
                     "title": "Nowoczesna Łazienka",
@@ -278,40 +278,40 @@ export const translations = {
             },
             "projects": {
                 "1": {
-                    "title": "Сучасна квартира",
-                    "description": "Комплексне оздоблення квартири в сучасному стилі."
+                    "title": "Затишна ванна кімната",
+                    "description": "Оздоблення ванної кімнати в теплих тонах."
                 },
                 "2": {
-                    "title": "Апартаменти лофт",
-                    "description": "Оздоблення інтер'єру зі збереженням індустріального характеру."
+                    "title": "Оздоблення квартир під оренду",
+                    "description": "Оздоблення інтер'єрів під оренду в Resi4Rent."
                 },
                 "3": {
-                    "title": "Капітальний ремонт будинку",
-                    "description": "Повна реконструкція та заміна комунікацій в старому будинку."
+                    "title": "Оздоблення квартири",
+                    "description": "Оздоблення інтер'єрів квартири."
                 },
                 "4": {
-                    "title": "Офісний простір",
-                    "description": "Адаптація приміщення під офісний простір."
+                    "title": "Мінімалістична ванна кімната",
+                    "description": "Ванна кімната в чорно-білих кольорах."
                 },
                 "5": {
-                    "title": "Квартира-студія під ключ",
-                    "description": "Швидкий і надійний ремонт студії для здачі в оренду."
+                    "title": "Оздоблення кухні",
+                    "description": "Виконання електромонтажних та сантехнічних робіт, а також укладання плитки на кухні."
                 },
                 "6": {
-                    "title": "Салон Преміум",
-                    "description": "Ексклюзивне оздоблення з увагою до кожної деталі."
+                    "title": "Сучасна ванна кімната",
+                    "description": "Оздоблення ванної кімнати з увагою до кожної деталі."
                 },
                 "7": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Ванна кімната під оренду",
+                    "description": "Швидке оздоблення ванної кімнати під оренду."
                 },
                 "8": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Ванні кімнати під оренду",
+                    "description": "Оздоблення 5 ванних кімнат у парафії."
                 },
                 "9": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Електромонтаж у готелі",
+                    "description": "Комплексне виконання електромонтажних робіт на 5 поверхах готелю."
                 }
             }
         },
@@ -344,6 +344,18 @@ export const translations = {
                 "consulting": {
                     "title": "Консультації",
                     "description": "Професійна допомога у виборі матеріалів та плануванні."
+                },
+                "glamping": {
+                    "title": "Глемпінг",
+                    "description": "Послуги для глемпінг- та кемпінг-центрів, включаючи комплексне оздоблення та ремонт літніх будиночків."
+                },
+                "drywall": {
+                    "title": "Гіпсокартонні конструкції та Мурування з газобетону",
+                    "description": "Монтаж підвісних стель, перегородок та інших конструкцій з ГКЛ та газобетону."
+                },
+                "terraces": {
+                    "title": "Садові тераси",
+                    "description": "Комплексне будівництво дерев'яних терас."
                 }
             }
         },
@@ -494,40 +506,40 @@ export const translations = {
             },
             "projects": {
                 "1": {
-                    "title": "Современная квартира",
-                    "description": "Комплексная отделка квартиры в современном стиле."
+                    "title": "Уютная ванная комната",
+                    "description": "Отделка ванной комнаты в теплых тонах."
                 },
                 "2": {
-                    "title": "Апартаменты лофт",
-                    "description": "Отделка интерьера с сохранением индустриального характера."
+                    "title": "Отделка квартир под аренду",
+                    "description": "Отделка интерьеров под аренду в Resi4Rent."
                 },
                 "3": {
-                    "title": "Капитальный ремонт дома",
-                    "description": "Полная реконструкция и замена коммуникаций в старом доме."
+                    "title": "Отделка квартиры",
+                    "description": "Отделка интерьеров квартиры."
                 },
                 "4": {
-                    "title": "Офисное пространство",
-                    "description": "Адаптация помещения под офисное пространство."
+                    "title": "Минималистичная ванная комната",
+                    "description": "Ванная комната в черно-белых цветах."
                 },
                 "5": {
-                    "title": "Квартира-студия под ключ",
-                    "description": "Быстрый и надежный ремонт студии для сдачи в аренду."
+                    "title": "Отделка кухни",
+                    "description": "Выполнение электромонтажных и сантехнических работ, а также укладка плитки на кухне."
                 },
                 "6": {
-                    "title": "Салон Премиум",
-                    "description": "Эксклюзивная отделка с вниманием к каждой детали."
+                    "title": "Современная ванная комната",
+                    "description": "Отделка ванной комнаты с вниманием к каждой детали."
                 },
                 "7": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Ванная комната под аренду",
+                    "description": "Быстрая отделка ванной комнаты под аренду."
                 },
                 "8": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Ванные комнаты под аренду",
+                    "description": "Отделка 5 ванных комнат в приходе."
                 },
                 "9": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Электромонтаж в отеле",
+                    "description": "Комплексное выполнение электромонтажных работ на 5 этажах отеля."
                 }
             }
         },
@@ -560,6 +572,18 @@ export const translations = {
                 "consulting": {
                     "title": "Консультации",
                     "description": "Профессиональная помощь в выборе материалов и планировке."
+                },
+                "glamping": {
+                    "title": "Глэмпинг",
+                    "description": "Услуги для глэмпинг- и кемпинг-центров, включая комплексную отделку и ремонт летних домиков."
+                },
+                "drywall": {
+                    "title": "Гипсокартонные конструкции и Кладка из газобетона",
+                    "description": "Монтаж подвесных потолков, перегородок и других конструкций из ГКЛ и газобетона."
+                },
+                "terraces": {
+                    "title": "Садовые террасы",
+                    "description": "Комплексное строительство деревянных террас."
                 }
             }
         },
@@ -710,40 +734,40 @@ export const translations = {
             },
             "projects": {
                 "1": {
-                    "title": "Modern Apartment",
-                    "description": "Comprehensive apartment finishing in modern style."
+                    "title": "Cozy Bathroom",
+                    "description": "Bathroom finishing in warm colors."
                 },
                 "2": {
-                    "title": "Loft Apartment",
-                    "description": "Interior finishing preserving the industrial character."
+                    "title": "Apartment Finishing for Rent",
+                    "description": "Interior finishing for rent in Resi4Rent."
                 },
                 "3": {
-                    "title": "Tenement Overhaul",
-                    "description": "Complete reconstruction and utility replacement in an old tenement house."
+                    "title": "Apartment Finishing",
+                    "description": "Interior finishing of an apartment."
                 },
                 "4": {
-                    "title": "Office Space",
-                    "description": "Adaptation of premises for office space."
+                    "title": "Minimalist Bathroom",
+                    "description": "Bathroom in black and white colors."
                 },
                 "5": {
-                    "title": "Turnkey Studio",
-                    "description": "Fast and solid renovation of a studio for rent."
+                    "title": "Kitchen Finishing",
+                    "description": "Electrical and plumbing installations and tiling in the kitchen."
                 },
                 "6": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Modern Bathroom",
+                    "description": "Bathroom finishing with attention to every detail."
                 },
                 "7": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Bathroom for Rent",
+                    "description": "Fast bathroom finishing for rent."
                 },
                 "8": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Bathrooms for Rent",
+                    "description": "Finishing of 5 bathrooms in a parish."
                 },
                 "9": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Electrical Works in a Hotel",
+                    "description": "Comprehensive electrical installation on 5 floors of a hotel."
                 }
             }
         },
@@ -776,6 +800,18 @@ export const translations = {
                 "consulting": {
                     "title": "Advisory",
                     "description": "Professional assistance in choosing materials and layout."
+                },
+                "glamping": {
+                    "title": "Glamping",
+                    "description": "Services for Glamping and Camping resorts, including comprehensive finishing and renovation of summer cottages."
+                },
+                "drywall": {
+                    "title": "Drywall & Aerated Concrete Masonry",
+                    "description": "Installation of suspended ceilings, partition walls, and other structures made of gypsum boards and aerated concrete."
+                },
+                "terraces": {
+                    "title": "Garden Terraces",
+                    "description": "Comprehensive construction of wooden terraces."
                 }
             }
         },
