@@ -19,12 +19,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     if (saved && saved in translations) {
       setLanguageState(saved);
     } else {
-      const browserLang = navigator.language.split("-")[0] as Language;
-      if (browserLang in translations) {
-        setLanguageState(browserLang);
-      }
+      // Default to "pl" as requested by user
+      setLanguageState("pl");
     }
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);

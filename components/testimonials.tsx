@@ -42,22 +42,33 @@ export function Testimonials() {
           <div className="relative">
             <Quote className="h-16 w-16 text-primary-foreground/20 absolute -top-4 -left-4" />
             
-            <div className="bg-primary-foreground/10 p-8 md:p-12">
-              <p className="text-primary-foreground text-lg md:text-xl leading-relaxed mb-8">
-                {currentReview.text}
-              </p>
+            <div className="bg-primary-foreground/10 p-8 md:p-12 min-h-[400px] flex flex-col">
+              <div className="grid grid-cols-1 flex-grow">
+                {reviewKeys.map((key, index) => (
+                  <div
+                    key={key}
+                    className={cn(
+                      "col-start-1 row-start-1 transition-opacity duration-500",
+                      index === currentIndex ? "opacity-100 z-10" : "opacity-0 pointer-events-none"
+                    )}
+                  >
+                    <p className="text-primary-foreground text-lg md:text-xl leading-relaxed mb-8">
+                      {t.testimonials.reviews[key].text}
+                    </p>
+                  </div>
+                ))}
+              </div>
               
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mt-auto pt-8 border-t border-primary-foreground/10">
                 <div>
                   <p className="font-serif text-xl text-primary-foreground">
-                    {currentReview.author}
+                    {t.testimonials.reviews[reviewKeys[currentIndex]].author}
                   </p>
                   <p className="text-primary-foreground/70 text-sm">
-                    {currentReview.role} • {currentReview.location}
+                    {t.testimonials.reviews[reviewKeys[currentIndex]].role} • {t.testimonials.reviews[reviewKeys[currentIndex]].location}
                   </p>
                 </div>
 
-                {/* Navigation */}
                 <div className="flex gap-2">
                   <button
                     onClick={prevTestimonial}
