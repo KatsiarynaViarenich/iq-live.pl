@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "alt-remonty",
+  "name": "iq-live",
   "compatibility_date": "2026-05-16",
   "compatibility_flags": [
     "nodejs_compat"
@@ -13,7 +13,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "alt-remonty"
+      "service": "iq-live"
     }
   ],
   "images": {

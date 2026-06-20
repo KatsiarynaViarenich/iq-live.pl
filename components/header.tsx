@@ -23,7 +23,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-serif tracking-tight text-foreground">
-          ALT-remonty
+          IQ Live
         </Link>
 
         {/* Desktop Navigation */}

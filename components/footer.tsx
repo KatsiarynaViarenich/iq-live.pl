@@ -34,7 +34,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="text-2xl font-serif tracking-tight">
-              ALT-remonty
+              IQ Live
             </Link>
             <p className="mt-4 text-background/70 leading-relaxed">
               {t.footer.description}
@@ -96,7 +96,7 @@ export function Footer() {
               <li>NIP: 8992579035</li>
               <li className="pt-2">+48 731 997 440 (PL)</li>
               <li>+48 695 846 241 (UA, RU)</li>
-              <li>kontakt@alt-remonty.pl</li>
+              <li>kontakt@iq-live.pl</li>
             </ul>
           </div>
         </div>
@@ -104,7 +104,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © {new Date().getFullYear()} ALT-remonty. {t.footer.rights}
+            © {new Date().getFullYear()} IQ Live. {t.footer.rights}
           </p>
           {/* <div className="flex gap-6 text-sm">
             <Link href="#" className="text-background/60 hover:text-background transition-colors">

@@ -15,7 +15,7 @@ export function Contact() {
     {
       icon: Mail,
       label: t.contact.info.email,
-      value: "kontakt@alt-remonty.pl",
+      value: "kontakt@iq-live.pl",
       sublabel: t.contact.info.emailResponse
     },
     {

@@ -18,7 +18,7 @@ export const translations = {
             "getQuote": "Darmowa Wycena"
         },
         "hero": {
-            "tagline": "ALT-remonty - Wykończenia Mieszkań",
+            "tagline": "IQ Live - Wykończenia Mieszkań",
             "title": "Twoje Wnętrze, ",
             "titleHighlight": "Nasza Precyzja",
             "description": "Najwyższa jakość, terminowość i profesjonalne doradztwo. Zapewniamy 2 lata rękojmi na nasze usługi, dbając o każdy szczegół Twojego mieszkania.",
@@ -135,7 +135,7 @@ export const translations = {
             "tagline": "Więcej O Nas",
             "title": "Stawiamy na ",
             "titleHighlight": "Jakość i Terminowość",
-            "description": "ALT-remonty to doświadczona ekipa, która od lat zajmuje się wykończeniem mieszkań na najwyższym poziomie. Nasza wiedza i zaangażowanie gwarantują sukces każdego projektu.",
+            "description": "IQ Live to doświadczona ekipa, która od lat zajmuje się wykończeniem mieszkań na najwyższym poziomie. Nasza wiedza i zaangażowanie gwarantują sukces każdego projektu.",
             "descriptionSecondary": "Rozumiemy, jak ważny jest spokój podczas remontu. Dlatego dbamy o terminowość, służymy radą na każdym etapie prac i oferujemy 2-letnią rękojmię na nasze usługi. Jakość zawsze na pierwszym miejscu.",
             "highlights": {
                 "licensed": "Rękojmia 2 lata",
@@ -168,7 +168,7 @@ export const translations = {
                     "location": "Instalacja Elektryczna"
                 },
                 "review3": {
-                    "text": "Jestem bardzo zadowolony ze współpracy z firmą ALT-remonty, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
+                    "text": "Jestem bardzo zadowolony ze współpracy z firmą IQ Live, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
                     "author": "Zadowolony Klient",
                     "role": "Właściciel Mieszkania",
                     "location": "Jacek W."
@@ -218,7 +218,7 @@ export const translations = {
             }
         },
         "footer": {
-            "description": "ALT-remonty: najwyższa jakość, dotrzymywanie terminów, fachowe doradztwo i 2 lata rękojmi. Twój sprawdzony wykonawca.",
+            "description": "IQ Live: najwyższa jakość, dotrzymywanie terminów, fachowe doradztwo i 2 lata rękojmi. Twój sprawdzony wykonawca.",
             "quickLinks": "Na Skróty",
             "services": "Usługi",
             "contactInfo": "Kontakt",
@@ -246,7 +246,7 @@ export const translations = {
             "getQuote": "Безкоштовна оцінка"
         },
         "hero": {
-            "tagline": "ALT-remonty - Оздоблення Квартир",
+            "tagline": "IQ Live - Оздоблення Квартир",
             "title": "Ваш Інтер'єр, ",
             "titleHighlight": "Наша Точність",
             "description": "Найвища якість, дотримання термінів та професійні консультації. Ми надаємо 2 роки гарантії на наші послуги, дбаючи про кожну деталь вашої квартири.",
@@ -363,7 +363,7 @@ export const translations = {
             "tagline": "Більше про нас",
             "title": "Ми Робимо Ставку На ",
             "titleHighlight": "Якість і Дотримання Термінів",
-            "description": "ALT-remonty - це досвідчена команда, яка роками займається оздобленням квартир на найвищому рівні. Наші знання та відданість справі гарантують успіх кожного проєкту.",
+            "description": "IQ Live - це досвідчена команда, яка роками займається оздобленням квартир на найвищому рівні. Наші знання та відданість справі гарантують успіх кожного проєкту.",
             "descriptionSecondary": "Ми розуміємо, як важливий спокій під час ремонту. Тому ми дбаємо про строге дотримання термінів, надаємо поради на кожному етапі робіт і пропонуємо 2-річну гарантію на наші послуги. Якість завжди на першому місці.",
             "highlights": {
                 "licensed": "Гарантія 2 роки",
@@ -446,7 +446,7 @@ export const translations = {
             }
         },
         "footer": {
-            "description": "ALT-remonty: найвища якість, дотримання термінів, професійні консультації та 2 роки гарантії. Ваш надійний підрядник.",
+            "description": "IQ Live: найвища якість, дотримання термінів, професійні консультації та 2 роки гарантії. Ваш надійний підрядник.",
             "quickLinks": "Швидкі посилання",
             "services": "Послуги",
             "contactInfo": "Контакти",
@@ -474,7 +474,7 @@ export const translations = {
             "getQuote": "Бесплатная оценка"
         },
         "hero": {
-            "tagline": "ALT-remonty - Отделка Квартир",
+            "tagline": "IQ Live - Отделка Квартир",
             "title": "Ваш Интерьер, ",
             "titleHighlight": "Наша Точность",
             "description": "Высочайшее качество, строгое соблюдение сроков и профессиональные консультации. Мы предоставляем 2 года гарантии на наши услуги, заботясь о каждой детали вашей квартиры.",
@@ -591,7 +591,7 @@ export const translations = {
             "tagline": "Больше о нас",
             "title": "Мы Делаем Ставку На ",
             "titleHighlight": "Качество и Соблюдение Сроков",
-            "description": "ALT-remonty - это опытная команда, которая годами занимается отделкой квартир на высшем уровне. Наши знания и преданность делу гарантируют успех каждого проекта.",
+            "description": "IQ Live - это опытная команда, которая годами занимается отделкой квартир на высшем уровне. Наши знания и преданность делу гарантируют успех каждого проекта.",
             "descriptionSecondary": "Мы понимает, как важно спокойствие во время ремонта. Поэтому мы заботимся о строгом соблюдении сроков, предоставляем советы на каждом этапе работ и предлагаем 2-летнюю гарантию на наши услуги. Качество всегда на первом месте.",
             "highlights": {
                 "licensed": "Гарантия 2 года",
@@ -674,7 +674,7 @@ export const translations = {
             }
         },
         "footer": {
-            "description": "ALT-remonty: высочайшее качество, соблюдение сроков, профессиональные консультации и 2 года гарантии. Ваш надежный подрядчик.",
+            "description": "IQ Live: высочайшее качество, соблюдение сроков, профессиональные консультации и 2 года гарантии. Ваш надежный подрядчик.",
             "quickLinks": "Быстрые ссылки",
             "services": "Услуги",
             "contactInfo": "Контакты",
@@ -702,7 +702,7 @@ export const translations = {
             "getQuote": "Get Quote"
         },
         "hero": {
-            "tagline": "ALT-remonty - Apartment Finishing",
+            "tagline": "IQ Live - Apartment Finishing",
             "title": "Your Interior, ",
             "titleHighlight": "Our Precision",
             "description": "Highest quality, timely delivery, and professional advice. We provide a 2-year warranty on our services, taking care of every detail of your apartment.",
@@ -819,7 +819,7 @@ export const translations = {
             "tagline": "More About Us",
             "title": "We Focus On ",
             "titleHighlight": "Quality and Timeliness",
-            "description": "ALT-remonty is an experienced crew that has been dealing with apartment finishing at the highest level for years. Our knowledge and dedication guarantee the success of every project.",
+            "description": "IQ Live is an experienced crew that has been dealing with apartment finishing at the highest level for years. Our knowledge and dedication guarantee the success of every project.",
             "descriptionSecondary": "We understand how important peace of mind is during a renovation. That's why we ensure timely delivery, provide advice at every stage, and offer a 2-year warranty on our services. Quality is always our top priority.",
             "highlights": {
                 "licensed": "2-year Warranty",
@@ -902,7 +902,7 @@ export const translations = {
             }
         },
         "footer": {
-            "description": "ALT-remonty: highest quality, meeting deadlines, professional advice, and a 2-year warranty. Your reliable contractor.",
+            "description": "IQ Live: highest quality, meeting deadlines, professional advice, and a 2-year warranty. Your reliable contractor.",
             "quickLinks": "Quick Links",
             "services": "Services",
             "contactInfo": "Contact",
