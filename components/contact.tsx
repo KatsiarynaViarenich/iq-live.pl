@@ -15,7 +15,7 @@ export function Contact() {
     {
       icon: Mail,
       label: t.contact.info.email,
-      value: "kontakt@iq-live.pl",
+      value: "kontakt@crafting-life.pl",
       sublabel: t.contact.info.emailResponse
     },
     {

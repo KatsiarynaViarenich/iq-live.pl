@@ -24,18 +24,34 @@ export function Hero() {
 
       <div className="container mx-auto px-6 pt-32 pb-16 relative z-10 flex-grow flex flex-col justify-center">
         <div className="max-w-4xl">
-          <p className="text-primary-foreground uppercase tracking-widest text-sm mb-6">
-            {t.hero.tagline}
-          </p>
+          {/* <div className="w-24 sm:w-32 h-[3px] bg-primary mb-10 shadow-sm animate-in slide-in-from-left duration-700"></div> */}
 
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-background/95 leading-tight mb-8">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-background leading-tight mb-8">
             <span className="block">{t.hero.title}</span>
-            <span className="block">{t.hero.titleHighlight}</span>
           </h1>
 
-          <p className="text-background/90 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-            {t.hero.description}
-          </p>
+
+
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-background leading-tight mb-8">
+            <span className="block">{t.hero.titleHighlight}</span>
+          </h2>
+
+
+
+          <div className="border-l-4 border-primary pl-5 sm:pl-6 mb-8">
+            <p className="text-background/90 text-lg md:text-xl max-w-xl text-background/70 leading-relaxed">
+              {t.hero.description}
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3 text-background/90 text-base md:text-lg mb-10 font-medium tracking-wide">
+            <span>Wrocław i okolice </span>
+            {/* <span> </span> */}
+
+            <span className="w-1.5 h-1.5 rounded-full bg-background/95 shrink-0"></span>
+            <span>{t.hero.phone}</span>
+
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button

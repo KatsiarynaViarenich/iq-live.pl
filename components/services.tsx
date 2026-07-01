@@ -1,20 +1,20 @@
 "use client"
 
-import { Building2, Home, Paintbrush, Factory, Ruler, HardHat, type LucideIcon } from "lucide-react"
+import { Home, Paintbrush, LayoutGrid, Zap, Hammer, Layers, Sun, Tent, Lightbulb, type LucideIcon } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 type ServiceKey = "residential" | "commercial" | "renovation" | "projectManagement" | "design" | "consulting" | "glamping" | "drywall" | "terraces"
 
 const servicesData: { key: ServiceKey; icon: LucideIcon }[] = [
-  { key: "residential", icon: Home },
-  { key: "glamping", icon: Factory },
-  { key: "projectManagement", icon: HardHat },
-  { key: "drywall", icon: Building2 },
-    { key: "renovation", icon: Paintbrush },
-  { key: "commercial", icon: Building2 },
-  { key: "design", icon: Ruler },
-  { key: "terraces", icon: Home },
-  { key: "consulting", icon: Factory },
+  { key: "residential", icon: Home },              // Wykończenia pod klucz
+  { key: "renovation", icon: Paintbrush },         // Gładzie i malowanie
+  { key: "commercial", icon: LayoutGrid },         // Prace Glazurnicze (płytki)
+  { key: "projectManagement", icon: Zap },         // Instalacje elektr. i hydr.
+  { key: "drywall", icon: Hammer },                // Płyty G-K i murowanie
+  { key: "design", icon: Layers },                 // Podłogi i panele
+  { key: "terraces", icon: Sun },                  // Tarasy ogrodowe
+  { key: "glamping", icon: Tent },                 // Glamping domki
+  { key: "consulting", icon: Lightbulb },          // Doradztwo
 ]
 
 export function Services() {

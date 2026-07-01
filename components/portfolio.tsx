@@ -5,7 +5,7 @@ import { useState } from "react"
 import { cn } from "@/lib/utils"
 import { useLanguage } from "@/lib/language-context"
 import { ProjectLightbox } from "./project-lightbox"
-import { Eye } from "lucide-react"
+import { Eye, Images, ArrowUpRight, ArrowRight } from "lucide-react"
 import { title } from "process"
 
 type CategoryKey = "all" | "residential" | "commercial"
@@ -192,7 +192,7 @@ export function Portfolio() {
                   onMouseLeave={() => setHoveredProject(null)}
                   onClick={() => handleProjectClick(project)}
                 >
-                  <div className="aspect-[4/3] relative">
+                  <div className="aspect-[4/3] relative overflow-hidden">
                     <Image
                       src={project.images[0]}
                       alt={projectTranslation.title}
@@ -201,47 +201,28 @@ export function Portfolio() {
                     />
 
                     {/* Image count badge */}
-                    <div className="absolute top-3 right-3 bg-foreground/70 text-card px-2 py-1 text-xs flex items-center gap-1 z-10">
-                      <Eye className="w-3 h-3" />
+                    <div className="absolute top-3 right-3 bg-foreground/70 text-card px-2 py-1 text-xs flex items-center gap-1.5 z-10 rounded-sm shadow-sm backdrop-blur-md">
+                      <Images className="w-3.5 h-3.5" />
                       {project.images.length}
                     </div>
 
-                    <div className={cn(
-                      "absolute inset-0 bg-primary/80 flex flex-col justify-end p-6 transition-opacity duration-300",
-                      hoveredProject === project.id ? "opacity-100" : "opacity-0"
-                    )}>
-                      <p className="text-primary-foreground/70 text-sm uppercase tracking-wide mb-2">
-                        {t.portfolio.filters[project.category]}
-                      </p>
-                      <h3 className="font-serif text-2xl text-primary-foreground mb-2">
-                        {projectTranslation.title}
-                      </h3>
-                      <p className="text-primary-foreground/80 text-sm mb-3">
-                        {projectTranslation.description}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4 text-primary-foreground/60 text-sm">
-                          {/* <span>{project.location}</span> */}
-                          <span>•</span>
-                          <span>{project.year}</span>
-                        </div>
-                        <span className="text-primary-foreground text-sm flex items-center gap-2">
-                          <Eye className="w-4 h-4" />
-                          {t.portfolio.viewProject}
-                        </span>
+
+
+                    {/* Minimal gradient + CTA on image */}
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent pt-12 pb-4 px-5 z-10">
+                      <div className="flex items-center justify-end gap-1.5 text-white/80 group-hover:text-white transition-colors duration-300">
+                        <span className="text-[11px] font-normal">{t.portfolio.viewProject}</span>
+                        <ArrowRight strokeWidth={1} className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform duration-300" />
                       </div>
                     </div>
                   </div>
 
-                  {/* Project Info Below Image (visible when not hovered) */}
-                  <div className={cn(
-                    "bg-card p-4 transition-opacity duration-300",
-                    hoveredProject === project.id ? "opacity-0" : "opacity-100"
-                  )}>
-                    <p className="text-muted-foreground text-xs uppercase tracking-wide mb-1">
+                  {/* Project Info Below Image */}
+                  <div className="bg-card pt-4 pb-2">
+                    <p className="text-primary text-[10px] font-bold uppercase tracking-widest mb-1">
                       {t.portfolio.filters[project.category]}
                     </p>
-                    <h3 className="font-serif text-lg text-foreground">
+                    <h3 className="font-serif text-xl text-foreground line-clamp-1">
                       {projectTranslation.title}
                     </h3>
                   </div>

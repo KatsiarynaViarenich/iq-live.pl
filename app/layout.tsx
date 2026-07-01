@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: siteName,
   description: siteDescription,
-  keywords: ['wykończenia mieszkań', 'remonty', 'pod klucz', 'iq-live', 'budownictwo', 'projektowanie wnętrz', 'wrocław', 'wrocław remonty', 'wrocław wykończenia mieszkań'],
+  keywords: ['wykończenia mieszkań', 'remonty', 'pod klucz', 'crafting-life', 'budownictwo', 'projektowanie wnętrz', 'wrocław', 'wrocław remonty', 'wrocław wykończenia mieszkań'],
   robots: {
     index: true,
     follow: true,
